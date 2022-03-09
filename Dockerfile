@@ -14,4 +14,4 @@ COPY ssl_certs/example.com.key /etc/ssl/example.com/example.com.key
 
 EXPOSE 443
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"] 
